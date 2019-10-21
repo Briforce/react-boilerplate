@@ -1,0 +1,32 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "A place to start a React project.",
+  "main": "index.js",
+  "repository": "git@github.com:Briforce/react-boilerplate.git",
+  "author": "Brian <bparker222@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --config ./config/webpack/webpack.config.js --mode development"
+  },
+  "dependencies": {
+    "classnames": "^2.x",
+    "less": "^3.x",
+    "react": "^16.x",
+    "react-dom": "^16.x"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.x",
+    "@babel/plugin-proposal-class-properties": "^7.x",
+    "@babel/preset-env": "^7.x",
+    "@babel/preset-react": "^7.x",
+    "babel-loader": "^8.x",
+    "css-loader": "^3.x",
+    "html-webpack-plugin": "^3.x",
+    "less-loader": "^5.x",
+    "style-loader": "^1.x",
+    "webpack": "^4.x",
+    "webpack-cli": "^3.x",
+    "webpack-dev-server": "^3.x"
+  }
+}
