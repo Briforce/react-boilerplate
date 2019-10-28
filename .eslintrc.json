@@ -1,0 +1,32 @@
+{
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended", "prettier"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true
+    }
+  },
+  "parser": "babel-eslint",
+  "plugins": ["prettier", "react", "sort-imports-es6-autofix"],
+  "rules": {
+    "jsx-a11y/label-has-for": "off",
+    "prettier/prettier": ["error", { "singleQuote": true }],
+    "sort-imports-es6-autofix/sort-imports-es6": [
+      2,
+      {
+        "ignoreCase": false,
+        "ignoreMemberSort": false,
+        "memberSyntaxSortOrder": ["none", "all", "multiple", "single"]
+      }
+    ]
+  },
+  "settings": {
+    "react": {
+      "version": "16.11"
+    }
+  }
+}

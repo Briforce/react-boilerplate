@@ -1,7 +1,5 @@
-import React from "react";
+import React from 'react';
 
-const App = () => {
-  return <div>Briforce's React Boilerplate</div>;
-};
+const App = () => <div>React Boilerplate</div>;
 
 export default App;
