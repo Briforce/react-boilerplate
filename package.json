@@ -30,6 +30,7 @@
     "eslint-plugin-import": "2.x",
     "eslint-plugin-prettier": "3.x",
     "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^2.2.0",
     "eslint-plugin-sort-imports-es6-autofix": "0.x",
     "html-webpack-plugin": "^3.x",
     "less-loader": "^5.x",
