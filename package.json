@@ -15,7 +15,8 @@
     "classnames": "^2.x",
     "less": "^3.x",
     "react": "^16.x",
-    "react-dom": "^16.x"
+    "react-dom": "^16.x",
+    "react-jss": "^10.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.x",
