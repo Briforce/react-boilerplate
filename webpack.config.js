@@ -11,7 +11,7 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            configFile: path.resolve('config/babel.config.js')
+            configFile: path.resolve('babel.config.js')
           }
         }
       },
@@ -33,7 +33,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/index.html'
+      template: './public/index.html'
     })
   ],
   resolve: {

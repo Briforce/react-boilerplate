@@ -3,7 +3,7 @@
     "browser": true,
     "node": true
   },
-  "extends": ["eslint:recommended", "plugin:react/recommended", "prettier"],
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true,
@@ -11,10 +11,9 @@
     }
   },
   "parser": "babel-eslint",
-  "plugins": ["prettier", "react", "sort-imports-es6-autofix", "react-hooks"],
+  "plugins": ["react", "sort-imports-es6-autofix", "react-hooks"],
   "rules": {
     "jsx-a11y/label-has-for": "off",
-    "prettier/prettier": ["error", { "singleQuote": true }],
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "sort-imports-es6-autofix/sort-imports-es6": [
