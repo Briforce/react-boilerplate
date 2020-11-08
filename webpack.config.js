@@ -11,12 +11,12 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            configFile: path.resolve('babel.config.js')
+            configFile: path.resolve('babel.config.json')
           }
         }
       },
       {
-        test: /\.less$/,
+        test: /\.css$/,
         use: [
           'style-loader',
           {
@@ -26,7 +26,6 @@ module.exports = {
               modules: true
             }
           },
-          'less-loader'
         ]
       }
     ]

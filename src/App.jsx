@@ -1,5 +1,7 @@
 import React from 'react';
 
-const App = () => <div>React Boilerplate</div>;
+const App = () => (
+  <>React Boilerplate</>
+);
 
 export default App;
